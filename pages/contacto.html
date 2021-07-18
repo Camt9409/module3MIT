@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Blog CM Digital</title>
+    <link rel="stylesheet" href="../css/styles.css">
+  </head>
+  <body>
+    <header>
+      <div class="logoContainer">
+        <img class="logo" src="../resources/images/logo.png" alt="logo CM Digital">
+      </div>
+      <nav class="menu">
+      <div>
+        <ul class="menuNav">
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="quiensoy.html">Quien soy</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="cursos.html">Cursos</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+    <main>
+      <section>
+        <h1>Formulario de Contacto</h1>
+        <p>Diligenciando este formulario nos podremos poner en contacto contigo para enviarte información relacionada con los cursos de tu interés, las mejores ofertas y contenido de lás últimas tendencias de los temas abordados en el blog.</p>
+      </section>
+      <section >
+        <div class="contactForm">
+          <form method="get" enctype="application/x-www-form-urlencoded">
+            <fieldset>
+              <legend>Tu información personal</legend>
+              <label for="nombres">Nombres</label>
+              <input type="text" name="nombres" id="nombres" />
+              <label for="apellidos">Apellidos</label>
+              <input type="text" name="apellidos" id="apellidos" />
+              <label for="hombre">Hombre</label>
+              <input type="radio" name="sexo" id="hombre" />
+              <label for="mujer">Mujer</label>
+              <input type="radio" name="sexo" id="mujer" />
+              <div>
+                <label for="birthdate">Fecha de nacimiento</label>
+                <input type="date" name="fecha de nacimiento" id="birthdate" />
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend>Tus datos de contacto</legend>
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" />
+              <label for="telefono">Telefono</label>
+              <input type="tel" name="telefono" id="telefono" />
+              <label for="direccion">Dirección</label>
+              <input type="text" name="direccion" id="direccion" />
+            </fieldset>
+            <fieldset>
+              <legend>Tus intereses</legend>
+              <div>
+                <label for="agilidad">Agilidad</label>
+                <input type="checkbox" name="interes1" value="agilidad" id="agilidad" />
+                <label for="innovación">Innovación</label>
+                <input type="checkbox" name="interes2" value="innovación" id="innovacion" />
+                <label for="Emprendimiento">Emprendimiento</label>
+                <input type="checkbox" name="interes3" value="Emprendimiento" id="Emprendimiento" />
+                <label for="Management">Management</label>
+                <input type="checkbox" name="interes4" value="Management" id="Management" />
+                <label for="Transformación">Transformación</label>
+                <input type="checkbox" name="interes5" value="Transformación" id="Transformación"/>
+              </div>
+              <label for="work">Tu área de trabajo</label>
+              <select name="Tu área de trabajo" id="work">
+                <option value="" selected disabled>-</option>
+                <option value="Ingenieria">Ingenieria</option>
+                <option value="Producto">Producto</option>
+                <option value="Diseño">Diseño</option>
+                <option value="QA">QA</option>
+                <option value="Otro">Otro</option>
+              </select>
+            </fieldset>
+            <fieldset>
+              <div>
+                <label for="habeasdata">¿Acepta que le enviemos información de nuestros cursos
+                  periodicamente?</label>
+                SI
+                <input type="checkbox" name="habeasdata" value="si" id="habeasdata" />
+              </div>
+              <input type="submit" name="Enviar" value="Enviar" />
+              <input type="reset" name="reset" value="Limpiar campos" />
+              <!-- <input type="button" value=""> -->
+            </fieldset>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footerContainer">
+        <ul>
+          <li>Sobre mi</li>
+          <li>Contacto</li>
+          <li>Términos de servicio</li>
+        </ul>
+        <ul>
+          <li>Recursos</li>
+          <li>Cursos</li>
+          <li>Consultorías</li>
+        </ul>
+        <ul>
+          <li>Equipo</li>
+          <li>Políticas</li>
+          <li>Portafolio de clientes</li>
+        </ul>
+      </div>
+      <div class="socialNetwork">
+        <img src="../resources/images/instagram.png" alt="imagen instagram" />
+        <img src="../resources/images/fcb.png" alt="imagen facebook" />
+        <img src="../resources/images/twitter.png" alt="imagen twitter" />
+        <img src="../resources/images/yt.png" alt="youtube" />
+      </div>
+      <div>
+        <p>Copyright</p>
+      </div>
+    </footer>
+  </body>
+</html>
